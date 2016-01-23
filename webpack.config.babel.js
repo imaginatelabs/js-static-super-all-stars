@@ -1,4 +1,4 @@
-module.exports = {
+const appConfig = {
   entry: "./entry.js",
   output: {
     path: __dirname,
@@ -16,3 +16,4 @@ module.exports = {
   }
 };
 
+export default appConfig;
