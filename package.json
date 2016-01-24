@@ -10,9 +10,12 @@
     "babel-preset-es2015": "^6.3.13",
     "css-loader": "^0.23.1",
     "style-loader": "^0.13.0",
-    "webpack": "^1.12.11"
+    "webpack": "^1.12.11",
+    "webpack-dev-server": "^1.14.1"
   },
   "scripts": {
+    "//": "Note that --open doesn't work with webpack-dev-server@1.14.1 it's 2.x feature",
+    "start": "webpack-dev-server --hot --inline --https --progress --colors --open https://localhost:8080",
     "deploy": "webpack --color --progress",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

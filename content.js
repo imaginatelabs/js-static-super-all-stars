@@ -1,2 +1,2 @@
-export default { "content":"It works from content.js."};
+export default { "content":"YEAH - It hot reload works from content.js."};
 
