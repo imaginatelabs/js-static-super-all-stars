@@ -1,7 +1,7 @@
 {
   "name": "es6",
   "version": "1.0.0",
-  "description": "Single page app using es7 Babel, Webpack, React, Flow, Flux, Bootstrap and Font-Awesome.",
+  "description": "Single page app using es2015+ Babel, Webpack, React, Flow, Flux, Bootstrap and Font-Awesome.",
   "main": "entry.js",
   "dependencies": {},
   "devDependencies": {
@@ -18,6 +18,10 @@
     "start": "webpack-dev-server --hot --inline --https --progress --colors --open https://localhost:8080",
     "deploy": "webpack --color --progress",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+      "type": "git",
+        "url": "git://github.com/imaginatelabs/js-static-super-all-stars.git"
   },
   "author": "Wayne Allan",
   "license": "MIT"
