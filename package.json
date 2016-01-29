@@ -20,8 +20,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
-      "type": "git",
-        "url": "git://github.com/imaginatelabs/js-static-super-all-stars.git"
+    "type": "git",
+    "url": "git://github.com/imaginatelabs/js-static-super-all-stars.git"
   },
   "author": "Wayne Allan",
   "license": "MIT"
